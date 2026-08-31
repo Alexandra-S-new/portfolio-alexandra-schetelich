@@ -31,6 +31,7 @@ export const projects: Project[] = [
       'Lokale Datenpersistenz für Nutzereinstellungen',
       'Planung einer Backend-Anbindung auch wenn sie noch nicht umgesetzt ist',
     ],
+    liveUrl: 'https://plan-prototyp-produktion.pages.dev/',
   },
   {
     id: 'flutter-todo-app',
