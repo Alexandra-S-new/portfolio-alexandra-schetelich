@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Navbar } from '../components/Navbar'
 import { Section } from '../components/Section'
+import { projects } from '../data/projects'
 
 function BackToTopButton() {
   const [visible, setVisible] = useState(false)
@@ -125,92 +126,52 @@ export function Home() {
           </p>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2">
-            <article className="rounded-md border border-border bg-surface p-6">
-              <p className="text-sm font-medium text-text-muted">
-                Webentwicklung &amp; Full-Stack-Konzeption
-              </p>
-              <h3 className="mt-2">Kindertraum Organisation</h3>
-              <p className="mt-3 text-text-muted">
-                Eine professionelle Webpräsenz für eine kleine Organisation
-                mit integriertem Blog, Kontaktmöglichkeit,
-                Newsletter-Anbindung und Demo-Shop.
-              </p>
-              <p className="mt-4 text-sm font-medium text-text">
-                React · TypeScript · Tailwind CSS · Supabase · Cloudflare
-                Pages
-              </p>
-              <p className="mt-4 text-text-muted">
-                Das Projekt verbindet eine moderne, responsive
-                Benutzeroberfläche mit einer schlanken
-                Backend-Architektur. Dabei wurden unter anderem Datenbank,
-                Authentifizierung, Row Level Security,
-                Newsletter-Anbindung, SEO, Datenschutzseiten und ein
-                Demo-Shop berücksichtigt.
-              </p>
-            </article>
+            {projects.map((project) => (
+              <article
+                key={project.id}
+                className="rounded-md border border-border bg-surface p-6"
+              >
+                <p className="text-sm font-medium text-text-muted">
+                  {project.category} · {project.status}
+                </p>
+                <h3 className="mt-2">{project.title}</h3>
+                <p className="mt-3 text-text-muted">{project.shortDescription}</p>
+                <p className="mt-4 text-sm font-medium text-text">
+                  {project.technologies.join(' · ')}
+                </p>
+                <p className="mt-4 text-text-muted">{project.description}</p>
 
-            <article className="rounded-md border border-border bg-surface p-6">
-              <p className="text-sm font-medium text-text-muted">
-                Mobile Development
-              </p>
-              <h3 className="mt-2">Flutter ToDo App</h3>
-              <p className="mt-3 text-text-muted">
-                Eine mobile ToDo-Anwendung zur strukturierten Verwaltung
-                alltäglicher Aufgaben.
-              </p>
-              <p className="mt-4 text-sm font-medium text-text">
-                Dart · Flutter
-              </p>
-              <p className="mt-4 text-text-muted">
-                Das Projekt entstand im Rahmen meiner Weiterbildung und
-                diente dazu, die Grundlagen der mobilen App-Entwicklung
-                mit Dart und Flutter praktisch umzusetzen.
-              </p>
-            </article>
+                {project.highlights.length > 0 && (
+                  <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-text-muted">
+                    {project.highlights.map((highlight) => (
+                      <li key={highlight}>{highlight}</li>
+                    ))}
+                  </ul>
+                )}
 
-            <article className="rounded-md border border-border bg-surface p-6">
-              <p className="text-sm font-medium text-text-muted">
-                Mobile Development &amp; Backend
-              </p>
-              <h3 className="mt-2">Firebase Chat App</h3>
-              <p className="mt-3 text-text-muted">
-                Eine mobile Chat-Anwendung mit Benutzeranmeldung und
-                Echtzeit-Kommunikation.
-              </p>
-              <p className="mt-4 text-sm font-medium text-text">
-                Dart · Flutter · Firebase Authentication · Cloud Firestore
-              </p>
-              <p className="mt-4 text-text-muted">
-                Die Anwendung verbindet eine Flutter-Oberfläche mit
-                Firebase-Diensten für Authentifizierung und persistente
-                Chatdaten. Im Mittelpunkt standen dabei
-                Benutzerverwaltung, Datenmodellierung und die Anbindung
-                eines cloudbasierten Backends.
-              </p>
-            </article>
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex items-center text-sm font-medium text-accent hover:text-accent-hover hover:underline"
+                  >
+                    GitHub ansehen
+                  </a>
+                )}
 
-            <article className="rounded-md border border-border bg-surface p-6">
-              <p className="text-sm font-medium text-text-muted">
-                Rapid Extendable Prototyping
-              </p>
-              <h3 className="mt-2">Living World Simulation Engine</h3>
-              <p className="mt-3 text-text-muted">
-                Ein experimenteller Prototyp für eine deterministische
-                agentenbasierte Simulation einer dynamischen Welt.
-              </p>
-              <p className="mt-4 text-sm font-medium text-text">
-                TypeScript · Simulation Architecture · Agent-Based
-                Modeling · Deterministic Systems
-              </p>
-              <p className="mt-4 text-text-muted">
-                Im Mittelpunkt steht eine erweiterbare
-                Simulationsarchitektur mit World State, Ereignissystem,
-                deterministischem Zufallszahlengenerator und
-                beobachtbaren Simulationsprozessen. Das Projekt
-                untersucht, wie komplexe Systeme modular aufgebaut und
-                schrittweise erweitert werden können.
-              </p>
-            </article>
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-flex items-center text-sm font-medium text-accent hover:text-accent-hover hover:underline"
+                  >
+                    Live ansehen
+                  </a>
+                )}
+              </article>
+            ))}
           </div>
         </Section>
 
