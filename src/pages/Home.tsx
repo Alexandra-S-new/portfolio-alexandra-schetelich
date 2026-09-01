@@ -46,9 +46,10 @@ export function Home() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-text-muted">
-            Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Web
-            Developerin. Ich verbinde technische Umsetzung mit einem Gespür
-            für klare, nutzerorientierte digitale Lösungen.
+            Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) · Web
+            Developerin · AI Mobile App Developer. Ich verbinde technische
+            Umsetzung mit einem Gespür für klare, nutzerorientierte digitale
+            Lösungen.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -80,8 +81,9 @@ export function Home() {
 
           <div className="mt-6 max-w-2xl space-y-4 text-text-muted">
             <p>
-              Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und
-              Web Developerin. Mein fachlicher Schwerpunkt liegt in der
+              Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.), Web
+              Developerin und aktuell in der Weiterentwicklung zur AI Mobile
+              App Developer. Mein fachlicher Schwerpunkt liegt in der
               Entwicklung und Gestaltung digitaler Anwendungen – von der
               strukturierten Umsetzung responsiver Weboberflächen bis zur
               Entwicklung moderner Apps.
