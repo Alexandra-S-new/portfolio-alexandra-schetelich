@@ -295,7 +295,7 @@ export function Home() {
                 rel="noopener noreferrer"
                 className="mt-2 block break-words text-accent underline-offset-4 hover:text-accent-hover hover:underline"
               >
-                LinkedIn
+                LinkedIn-Profil
               </a>
             </article>
           </div>
