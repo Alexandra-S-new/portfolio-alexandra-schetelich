@@ -25,7 +25,7 @@ function NavLinks({ className, onNavigate }: NavLinksProps) {
 }
 
 const linkClassName =
-  'text-sm font-medium text-surface hover:opacity-80 focus-visible:outline-surface'
+  'text-sm md:text-base font-medium text-surface hover:opacity-80 focus-visible:outline-surface'
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,7 +35,7 @@ export function Navbar() {
       {/* Reserves the nav's collapsed height in the normal document flow so
           the fixed bar below doesn't cover the content that follows it. */}
       <div aria-hidden="true" className="invisible">
-        <div className="container-page flex items-center py-4">
+        <div className="container-page flex items-center py-4 md:py-5">
           <div className="hidden md:flex md:flex-wrap md:items-center md:gap-x-6 md:gap-y-2">
             <NavLinks className={linkClassName} />
           </div>
@@ -48,7 +48,7 @@ export function Navbar() {
       </div>
 
       <nav className="fixed inset-x-0 top-0 z-50 bg-accent">
-        <div className="container-page flex items-center py-4">
+        <div className="container-page flex items-center py-4 md:py-5">
           <div className="hidden md:flex md:flex-wrap md:items-center md:gap-x-6 md:gap-y-2">
             <NavLinks className={linkClassName} />
           </div>

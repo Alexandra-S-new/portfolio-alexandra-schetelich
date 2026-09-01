@@ -154,7 +154,7 @@ export function Home() {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 inline-flex items-center text-sm font-medium text-accent hover:text-accent-hover hover:underline"
+                    className="mt-4 inline-flex items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-surface transition-colors hover:bg-accent-hover"
                   >
                     GitHub ansehen
                   </a>
@@ -165,7 +165,7 @@ export function Home() {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 inline-flex items-center text-sm font-medium text-accent hover:text-accent-hover hover:underline"
+                    className="mt-2 inline-flex items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-surface transition-colors hover:bg-accent-hover"
                   >
                     Live ansehen
                   </a>
@@ -226,9 +226,8 @@ export function Home() {
                 für Daten, Authentifizierung und Anwendungslogik.
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-text-muted">
-                <li>Supabase</li>
                 <li>Firebase</li>
-                <li>PostgreSQL</li>
+                <li>Node.js</li>
                 <li>REST / APIs</li>
               </ul>
             </article>
@@ -265,30 +264,39 @@ export function Home() {
             Austausch.
           </p>
 
-          {/* Demo-/Platzhalterdaten – vor dem Production-Deployment durch echte Kontakt- und Profildaten ersetzen. */}
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <article className="rounded-md border border-border bg-surface p-6">
+            <article className="rounded-md border border-border border-t-4 border-t-accent bg-surface p-6">
               <p className="text-sm font-medium text-text-muted">E-Mail</p>
               <a
-                href="mailto:hallo@example.com"
+                href="mailto:a.schetelich@gmx.net"
                 className="mt-2 block break-words text-accent underline-offset-4 hover:text-accent-hover hover:underline"
               >
-                hallo@example.com
+                a.schetelich@gmx.net
               </a>
             </article>
 
-            <article className="rounded-md border border-border bg-surface p-6">
+            <article className="rounded-md border border-border border-t-4 border-t-accent bg-surface p-6">
               <p className="text-sm font-medium text-text-muted">GitHub</p>
-              <p className="mt-2 break-words text-text">
-                github.com/alexandra-schetelich
-              </p>
+              <a
+                href="https://github.com/Alexandra-S-new"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block break-words text-accent underline-offset-4 hover:text-accent-hover hover:underline"
+              >
+                github.com/Alexandra-S-new
+              </a>
             </article>
 
-            <article className="rounded-md border border-border bg-surface p-6">
+            <article className="rounded-md border border-border border-t-4 border-t-accent bg-surface p-6">
               <p className="text-sm font-medium text-text-muted">LinkedIn</p>
-              <p className="mt-2 break-words text-text">
-                linkedin.com/in/alexandra-schetelich
-              </p>
+              <a
+                href="https://www.linkedin.com/in/alexandra-schetelich-36b521397/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block break-words text-accent underline-offset-4 hover:text-accent-hover hover:underline"
+              >
+                LinkedIn
+              </a>
             </article>
           </div>
         </Section>
