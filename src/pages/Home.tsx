@@ -37,13 +37,20 @@ export function Home() {
         <Navbar />
 
         <Section className="bg-background">
-          <p className="text-sm font-medium tracking-wide text-text-muted">
+          <h1 className="max-w-3xl">Alexandra Schetelich</h1>
+
+          <p className="mt-3 max-w-3xl text-lg font-semibold text-text sm:text-xl">
+            Medieninformatikerin (M.Sc.) · Web Developerin · AI Mobile App
+            Developer
+          </p>
+
+          <p className="mt-6 text-sm font-medium tracking-wide text-text-muted">
             MEDIENINFORMATIK · WEB DEVELOPMENT
           </p>
 
-          <h1 className="mt-4 max-w-3xl">
+          <h2 className="mt-4 max-w-3xl">
             Webentwicklung mit Blick für Struktur, Gestaltung und Nutzer.
-          </h1>
+          </h2>
 
           <p className="mt-6 max-w-2xl text-text-muted">
             Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) · Web
