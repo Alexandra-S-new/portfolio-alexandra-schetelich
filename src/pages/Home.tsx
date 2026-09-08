@@ -55,7 +55,7 @@ export function Home() {
 
             Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Entwicklerin moderner Anwendungen.
             Mein Schwerpunkt liegt auf der Konzeption und Entwicklung moderner Mobile Apps sowie KI-gestützter Lösungen.
-            Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Lösungen. Mein Anspruch ist es, durchdachte und benutzerfreundliche Anwendungen zu entwickeln, die nicht nur funktionieren, sondern Menschen im Alltag wirklich unterstützen.
+            Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Anwendungen. Mein Anspruch ist es, durchdachte und benutzerfreundliche Anwendungen zu entwickeln, die nicht nur funktionieren, sondern Menschen im Alltag wirklich unterstützen.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
