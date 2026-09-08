@@ -50,7 +50,7 @@ export function Home() {
             Webentwicklung mit Blick für Struktur, Gestaltung und Nutzer.
           </h2> */}
 
-          <p className="mt-6 max-w-2xl text-text-muted">
+          <p className="mt-6 max-w-3xl text-text-muted">
             Digitale Produkte überzeugen mich dann, wenn sie komplexe Aufgaben einfach machen.
             Als Medieninformatikerin (M.Sc.) entwickle ich mobile und webbasierte Anwendungen mit Fokus auf verständliche Bedienung, saubere technische Umsetzung und praktischen Nutzen.
             Besonders interessiert mich die Verbindung von moderner App-Entwicklung und künstlicher Intelligenz.
