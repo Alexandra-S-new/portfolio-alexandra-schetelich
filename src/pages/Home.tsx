@@ -40,23 +40,19 @@ export function Home() {
           <h1 className="max-w-3xl">Alexandra Schetelich</h1>
 
           <p className="mt-3 max-w-3xl text-lg font-semibold text-text sm:text-xl">
-            Medieninformatikerin (M.Sc.) · Web Developerin · AI Mobile App
-            Developer
-          </p>
+            Medieninformatikerin (M.Sc.) · Web Developerin · Moderne Anwendungsentwicklung</p>
 
-          <p className="mt-6 text-sm font-medium tracking-wide text-text-muted">
+          {/* <p className="mt-6 text-sm font-medium tracking-wide text-text-muted">
             MEDIENINFORMATIK · WEB DEVELOPMENT
-          </p>
+          </p> */}
 
-          <h2 className="mt-4 max-w-3xl">
+          {/*  <h2 className="mt-4 max-w-3xl">
             Webentwicklung mit Blick für Struktur, Gestaltung und Nutzer.
-          </h2>
+          </h2> */}
 
           <p className="mt-6 max-w-2xl text-text-muted">
-            Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) · Web
-            Developerin · AI Mobile App Developer. Ich verbinde technische
-            Umsetzung mit einem Gespür für klare, nutzerorientierte digitale
-            Lösungen.
+            Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Entwicklerin moderner digitaler Anwendungen. Meine Qualifikation in Moderner Anwendungsentwicklung bildet die Grundlage für meinen Schwerpunkt in der Entwicklung moderner Mobile Apps und AI-gestützter Anwendungen.
+            Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Lösungen. Mein Anspruch ist es, durchdachte und benutzerfreundliche Anwendungen zu entwickeln, die nicht nur funktionieren, sondern Menschen im Alltag wirklich unterstützen.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
