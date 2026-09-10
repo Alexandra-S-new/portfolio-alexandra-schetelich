@@ -50,7 +50,7 @@ export function Home() {
             Webentwicklung mit Blick für Struktur, Gestaltung und Nutzer.
           </h2> */}
 
-          <p className="mt-6 max-w-3xl text-text-muted">
+          <p className="mt-6 max-w-4xl text-text-muted">
             Digitale Produkte überzeugen mich dann, wenn sie komplexe Aufgaben einfach machen.
 
             Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Entwicklerin moderner Anwendungen.
@@ -85,7 +85,7 @@ export function Home() {
             Mein beruflicher Weg verbindet Medieninformatik, Webentwicklung und moderne Anwendungsentwicklung.
           </h2>
 
-          <div className="mt-6 max-w-2xl space-y-4 text-text-muted">
+          <div className="mt-6 max-w-4xl space-y-4 text-text-muted">
             <p>
               Nach meiner Ausbildung zur Technischen Assistentin für Informatik mit Schwerpunkt Mediendesign
               habe ich Medieninformatik an der HTWK Leipzig studiert und anschließend mehrere Jahre als
