@@ -95,7 +95,7 @@ export function Home() {
             <p>
               Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps
               und KI-gestützten Anwendungen. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
-              gezielt weiterentwickelt und mein Wissen um Technologien wie Dart und Flutter erweitert.</p>
+              gezielt weiterentwickelt und mein Wissen mit Technologien wie Dart und Flutter erweitert.</p>
 
             <p>
               Besonders spannend finde ich die Möglichkeit, digitale Produkte von der ersten Idee bis zur fertigen Anwendung mitzudenken.
@@ -105,7 +105,7 @@ export function Home() {
             <p>Ich gehe neue Aufgaben strukturiert und lösungsorientiert an und arbeite mich gerne in neue Technologien ein. Mich motiviert es, komplexe Anforderungen zu verstehen und daraus Lösungen zu entwickeln, die im Alltag einen echten Nutzen bieten.</p>
 
             <p>
-              Mir ist wichtig, dass digitale Lösungen nicht nur technisch funktionieren, sondern verständlich aufgebaut,
+              Mir ist wichtig, dass digitale Lösungen nicht nur technisch funktionieren, sondern verständlich gestaltet,
               gut nutzbar und langfristig nachvollziehbar sind.
             </p>
           </div>
