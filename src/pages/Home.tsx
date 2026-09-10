@@ -40,7 +40,7 @@ export function Home() {
           <h1 className="max-w-3xl">Alexandra Schetelich</h1>
 
           <p className="mt-3 max-w-3xl text-lg font-semibold text-text sm:text-xl">
-            Medieninformatikerin (M.Sc.) · Webentwicklerin · Entwicklerin moderne Anwendungen</p>
+            Medieninformatikerin (M.Sc.) · Webentwicklerin · Entwicklerin moderner Anwendungen</p>
 
           {/* <p className="mt-6 text-sm font-medium tracking-wide text-text-muted">
             MEDIENINFORMATIK · WEB DEVELOPMENT
@@ -94,7 +94,7 @@ export function Home() {
 
             <p>
               Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps
-              sowie in der KI-gestützten Entwicklung. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
+              sowie in der KI-gestützten Entwicklung digitaler Lösungen. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
               gezielt weiterentwickelt und mein Wissen mit Technologien wie Dart und Flutter erweitert.</p>
 
             <p>
@@ -221,7 +221,7 @@ export function Home() {
             <article className="border-t border-border pt-6">
               <h3>KI-gestützte Entwicklung</h3>
               <p className="mt-3 text-text-muted">
-                Entwicklung mit KI-Unterstützung von der Recherche und Planung bis zur Umsetzung und Überprüfung von Anwendungen.
+                Einsatz moderner KI-Werkzeuge von der Recherche und Planung bis zur Umsetzung und Überprüfung von Anwendungen.
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-text-muted">
                 <li>KI-gestützte Entwicklung</li>
@@ -254,7 +254,7 @@ export function Home() {
                 <li>Git / GitHub</li>
                 <li>VS Code</li>
                 <li>Figma</li>
-                <li>KI-gestützte Entwicklung</li>
+
                 <li>Rapid Prototyping</li>
               </ul>
             </article>
