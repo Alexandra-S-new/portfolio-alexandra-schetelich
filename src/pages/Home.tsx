@@ -94,7 +94,7 @@ export function Home() {
 
             <p>
               Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps
-              und KI-gestützter Entwicklung. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
+              sowie in der KI-gestützten Entwicklung. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
               gezielt weiterentwickelt und mein Wissen mit Technologien wie Dart und Flutter erweitert.</p>
 
             <p>
