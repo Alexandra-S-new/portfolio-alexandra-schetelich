@@ -54,9 +54,9 @@ export function Home() {
             Digitale Produkte überzeugen mich dann, wenn sie komplexe Aufgaben einfach machen.
 
             Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Entwicklerin moderner Anwendungen.
-            Mein Schwerpunkt liegt auf der Konzeption und Entwicklung moderner Mobile Apps sowie KI-gestützter Lösungen.
-            Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Anwendungen. Mein Anspruch ist es, durchdachte und benutzerfreundliche Anwendungen zu entwickeln, die nicht nur funktionieren, sondern Menschen im Alltag wirklich unterstützen.
-          </p>
+            Mein Schwerpunkt liegt auf der Konzeption und Entwicklung von Mobile Apps sowie KI-gestützten Lösungen.
+            Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Anwendungen.
+            Mein Anspruch ist es, durchdachte und benutzerfreundliche Lösungen zu schaffen, die nicht nur funktionieren, sondern Menschen im Alltag wirklich unterstützen.</p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -82,33 +82,20 @@ export function Home() {
           </p>
 
           <h2 className="mt-4 max-w-3xl">
-            Technik verstehen. Lösungen gestalten. Nutzer im Blick behalten.
+            Mein beruflicher Weg verbindet Medieninformatik, Webentwicklung und moderne Anwendungsentwicklung.
           </h2>
 
           <div className="mt-6 max-w-2xl space-y-4 text-text-muted">
             <p>
-              Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.), Web
-              Developerin und aktuell in der Weiterentwicklung zur AI Mobile
-              App Developer. Mein fachlicher Schwerpunkt liegt in der
-              Entwicklung und Gestaltung digitaler Anwendungen – von der
-              strukturierten Umsetzung responsiver Weboberflächen bis zur
-              Entwicklung moderner Apps.
+              Mein fachlicher Hintergrund verbindet Informatik, Medien und Webentwicklung.
+              Nach meiner Ausbildung zur Technischen Assistentin für Informatik mit Schwerpunkt Mediendesign habe ich Medieninformatik an der HTWK Leipzig studiert und anschließend mehrere Jahre als Webentwicklerin bei der dpmed GmbH in Leipzig gearbeitet.
             </p>
 
             <p>
-              Durch mein Studium der Medieninformatik und meine praktische
-              Erfahrung in der Webentwicklung verbinde ich technisches
-              Verständnis mit einem Blick für Gestaltung, Struktur und
-              Benutzerfreundlichkeit. Dabei arbeite ich mich gerne in neue
-              Technologien ein und entwickle Lösungen Schritt für Schritt von
-              der Idee bis zur funktionierenden Anwendung.
-            </p>
+              Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps und KI-gestützten Anwendungen. Mit meiner Weiterbildung in der Anwendungsentwicklung habe ich diesen Weg gezielt weiterentwickelt und mein Wissen um Technologien wie Dart und Flutter erweitert.</p>
 
             <p>
-              Besonders spannend finde ich die Schnittstelle zwischen
-              Entwicklung, Design und neuen Technologien. Aktuell erweitere
-              ich meine Kenntnisse insbesondere im Bereich Dart und Flutter
-              sowie bei der Entwicklung KI-gestützter Anwendungen.
+              Besonders spannend finde ich die Möglichkeit, digitale Produkte von der ersten Idee bis zur fertigen Anwendung mitzudenken. Aus meiner Erfahrung in der Webentwicklung nehme ich vor allem den Anspruch mit, dass eine gute technische Lösung auch für die Menschen funktionieren muss, die sie später nutzen.
             </p>
 
             <p>
