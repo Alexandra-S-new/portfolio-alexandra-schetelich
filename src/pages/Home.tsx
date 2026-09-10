@@ -87,21 +87,26 @@ export function Home() {
 
           <div className="mt-6 max-w-2xl space-y-4 text-text-muted">
             <p>
-              Mein fachlicher Hintergrund verbindet Informatik, Medien und Webentwicklung.
-              Nach meiner Ausbildung zur Technischen Assistentin für Informatik mit Schwerpunkt Mediendesign habe ich Medieninformatik an der HTWK Leipzig studiert und anschließend mehrere Jahre als Webentwicklerin bei der dpmed GmbH in Leipzig gearbeitet.
+              Nach meiner Ausbildung zur Technischen Assistentin für Informatik mit Schwerpunkt Mediendesign
+              habe ich Medieninformatik an der HTWK Leipzig studiert und anschließend mehrere Jahre als
+              Webentwicklerin bei der dpmed GmbH in Leipzig gearbeitet.
             </p>
 
             <p>
-              Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps und KI-gestützten Anwendungen. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg gezielt weiterentwickelt und mein Wissen um Technologien wie Dart und Flutter erweitert.</p>
+              Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps
+              und KI-gestützten Anwendungen. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
+              gezielt weiterentwickelt und mein Wissen um Technologien wie Dart und Flutter erweitert.</p>
 
             <p>
-              Besonders spannend finde ich die Möglichkeit, digitale Produkte von der ersten Idee bis zur fertigen Anwendung mitzudenken. Aus meiner Erfahrung in der Webentwicklung nehme ich vor allem den Anspruch mit, dass eine gute technische Lösung auch für die Menschen funktionieren muss, die sie später nutzen.
+              Besonders spannend finde ich die Möglichkeit, digitale Produkte von der ersten Idee bis zur fertigen Anwendung mitzudenken.
+              Aus meiner Erfahrung in der Webentwicklung nehme ich vor allem den Anspruch mit,
+              dass eine gute technische Lösung auch für die Menschen funktionieren muss, die sie später nutzen.
             </p>
+            <p>Ich gehe neue Aufgaben strukturiert und lösungsorientiert an und arbeite mich gerne in neue Technologien ein. Mich motiviert es, komplexe Anforderungen zu verstehen und daraus Lösungen zu entwickeln, die im Alltag einen echten Nutzen bieten.</p>
 
             <p>
-              Mir ist wichtig, dass digitale Lösungen nicht nur technisch
-              funktionieren, sondern verständlich aufgebaut, gut nutzbar und
-              langfristig nachvollziehbar sind.
+              Mir ist wichtig, dass digitale Lösungen nicht nur technisch funktionieren, sondern verständlich aufgebaut,
+              gut nutzbar und langfristig nachvollziehbar sind.
             </p>
           </div>
         </Section>
