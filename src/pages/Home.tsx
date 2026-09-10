@@ -94,7 +94,7 @@ export function Home() {
 
             <p>
               Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps
-              und KI-gestützten Anwendungen. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
+              und KI-gestützter Entwicklung. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
               gezielt weiterentwickelt und mein Wissen mit Technologien wie Dart und Flutter erweitert.</p>
 
             <p>
@@ -218,12 +218,24 @@ export function Home() {
                 <li>Flutter</li>
               </ul>
             </article>
+            <article className="border-t border-border pt-6">
+              <h3>KI-gestützte Entwicklung</h3>
+              <p className="mt-3 text-text-muted">
+                Entwicklung mit KI-Unterstützung von der Recherche und Planung bis zur Umsetzung und Überprüfung von Anwendungen.
+              </p>
+              <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-text-muted">
+                <li>KI-gestützte Entwicklung</li>
+                <li>Prompt Engineering</li>
+                <li>Context Engineering</li><li>
+                  KI-gestütztes Prototyping</li>
+              </ul>
+            </article>
 
             <article className="border-t border-border pt-6">
               <h3>Backend &amp; Daten</h3>
               <p className="mt-3 text-text-muted">
-                Anbindung und Nutzung moderner Backend- und Cloud-Dienste
-                für Daten, Authentifizierung und Anwendungslogik.
+                Anbindung und Nutzung von Backend- und Cloud-Diensten
+                für Daten, Authentifizierung und die Integration von APIs.
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-text-muted">
                 <li>Firebase</li>
