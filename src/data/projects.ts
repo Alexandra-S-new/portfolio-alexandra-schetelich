@@ -163,7 +163,7 @@ export const projects: Project[] = [
       'Beobachtete Emergenz: Aus einfachen Regeln entstanden im Testlauf eigenständig eine Partnerschaft und eine Geburt',
     ],
     keyLearnings: [
-      'KI-first Development als strukturierter Entwicklungsansatz für Exploration, Konzeption und Implementierung',
+      'KI-first Development als strukturierter Entwicklungsansatz für Ideenfindung, Konzeption und Implementierung',
       'Entwurf einer erweiterbaren, klar geschichteten Systemarchitektur',
       'Umsetzung deterministischer Simulationen mit reproduzierbaren, benannten Zufallsströmen',
       'Konzeption ereignisgetriebener Systeme mit typisierten Events',
