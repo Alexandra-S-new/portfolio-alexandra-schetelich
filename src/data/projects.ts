@@ -129,38 +129,48 @@ export const projects: Project[] = [
     category: 'Rapid Extendable Prototyping',
     status: 'Proof of Concept (PoC), aktiv getestet',
     shortDescription:
-      'Ein deterministischer, agentenbasierter Simulations-Prototyp einer kleinen Welt (Personen, Tiere, Bedürfnisse, Wirtschaft), umgesetzt in TypeScript mit CLI und Web-Oberfläche.',
+      'Ein KI-first entwickelter, deterministischer, agentenbasierter Simulations-Prototyp einer kleinen Welt mit Personen, Tieren, Bedürfnissen und wirtschaftlichen Interaktionen, umgesetzt in TypeScript mit CLI und Web-Oberfläche.',
     description:
-      'Die Simulation basiert auf einer geschichteten Architektur (Domain, World, Simulation, Application, Observability, Persistence, Presentation) mit zwölf unabhängigen Tick-Systemen, sieben Event-Typen und einer einfachen Utility-KI mit sechs Aktionstypen, unter anderem Essen, Schlafen, Arbeiten, Handeln und Sozialisieren. Ein zentraler Zufallsgenerator-Orchestrator leitet aus einem Seed deterministische, benannte Teil-Zufallsströme ab, sodass Simulationsläufe reproduzierbar bleiben – gespeicherte Stände lassen sich laden und liefern exakt denselben weiteren Verlauf wie ein direkter Durchlauf. Neben einer CLI zum Ausführen, Speichern und Inspizieren von Läufen existiert eine eigenständige Web-Oberfläche mit einer SVG-basierten Kartendarstellung von Orten, Verbindungen sowie Personen- und Tierfiguren inklusive Klick-Interaktion. Die Engine ist mit 287 automatisierten Tests abgesichert, inklusive dedizierter Determinismus-Tests für den Speicher-/Ladezyklus.',
-    technologies: ['TypeScript', 'Node.js', 'Vite', 'Vitest', 'Zod'],
+      'Die Simulation entstand in einem KI-first Entwicklungsprozess, bei dem KI-gestützte Werkzeuge für Ideenfindung, Konzeption und Implementierung eingesetzt wurden. Im Mittelpunkt stand dabei die Entwicklung einer klar strukturierten und erweiterbaren Architektur, in der die verschiedenen Bereiche der Simulation voneinander getrennt sind und dennoch zusammenspielen. Die Welt entwickelt sich über unabhängige Tick-Systeme, Events und eine einfache Utility-KI, die den simulierten Personen unterschiedliche Handlungen wie Essen, Schlafen, Arbeiten, Handeln und Sozialisieren ermöglicht. Ein zentraler Zufallsgenerator sorgt dafür, dass diese Prozesse trotz ihrer Komplexität deterministisch und damit reproduzierbar bleiben. Auf diese Weise können Simulationsstände gespeichert, geladen und zuverlässig weitergeführt werden. Die Engine lässt sich sowohl über eine CLI als auch über eine eigenständige Web-Oberfläche nutzen, die die simulierte Welt als interaktive SVG-Karte visualisiert. Die technische Umsetzung wurde durch 287 automatisierte Tests abgesichert, darunter spezielle Tests zur Überprüfung des deterministischen Verhaltens beim Speichern, Laden und Fortsetzen von Simulationen.',
+    technologies: [
+      'TypeScript',
+      'Node.js',
+      'Vite',
+      'Vitest',
+      'Zod',
+    ],
     features: [
       'CLI zum Ausführen, Speichern/Laden und Inspizieren von Simulationsläufen',
       'Web-Oberfläche mit SVG-Weltkarte und klickbaren Orten/Figuren',
       'deterministisches Speichern und Laden von Simulationsständen',
       'Event-Feed mit Filtermöglichkeit nach Ereignistyp',
-      '„Beobachten"-Funktion für einzelne Personen mit Live-Verlauf',
+      '„Beobachten“-Funktion für einzelne Personen mit Live-Verlauf',
     ],
     focus: [
+      'KI-first Development',
       'Agentenbasierte Simulation',
       'Deterministische Systeme',
       'Event-getriebene Architektur',
       'Softwarearchitektur & Schichtentrennung',
       'Testbarkeit',
     ],
-    role: 'Eigenständige Konzeption und technische Umsetzung der gesamten Simulationsarchitektur, der CLI sowie der Web-Oberfläche als persönliches Experimentier- und Vertiefungsprojekt.',
+    role:
+      'Eigenständige Konzeption und technische Umsetzung der gesamten Simulationsarchitektur, der CLI sowie der Web-Oberfläche in einem KI-first Entwicklungsprozess. KI-gestützte Werkzeuge wurden für Ideenfindung, Konzeption und Implementierung eingesetzt; Architekturentscheidungen, Validierung und Qualitätssicherung wurden eigenständig verantwortet.',
     highlights: [
       '287 von 287 automatisierten Tests bestehen',
-      'Determinismus praktisch verifiziert: Speichern, Weiterlaufen und Laden führt exakt zum gespeicherten Stand zurück',
-      'zwei unabhängige, gleichberechtigte Präsentationswege (CLI und Web) auf derselben Engine',
-      'beobachtete Emergenz: aus einfachen Regeln entstanden im Testlauf eigenständig eine Partnerschaft und eine Geburt',
+      'Determinismus praktisch verifiziert: Gespeicherte Simulationszustände lassen sich laden und reproduzierbar fortsetzen',
+      'Zwei gleichberechtigte Präsentationswege (CLI und Web) auf derselben Engine',
+      'Beobachtete Emergenz: Aus einfachen Regeln entstanden im Testlauf eigenständig eine Partnerschaft und eine Geburt',
     ],
     keyLearnings: [
+      'KI-first Development als strukturierter Entwicklungsansatz für Exploration, Konzeption und Implementierung',
       'Entwurf einer erweiterbaren, klar geschichteten Systemarchitektur',
       'Umsetzung deterministischer Simulationen mit reproduzierbaren, benannten Zufallsströmen',
       'Konzeption ereignisgetriebener Systeme mit typisierten Events',
       'Trennung von Simulationslogik und Beobachtung',
       'Absicherung komplexer Logik durch automatisierte Tests, inklusive dedizierter Determinismus-Tests',
     ],
-    githubUrl: 'https://github.com/Alexandra-S-new/rapid-extendable-prototyping',
+    githubUrl:
+      'https://github.com/Alexandra-S-new/rapid-extendable-prototyping',
   },
 ]
