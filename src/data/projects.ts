@@ -89,21 +89,31 @@ export const projects: Project[] = [
     category: 'Mobile Development & Backend',
     status: 'Abgeschlossenes Lernprojekt',
     shortDescription:
-      'Eine mobile Chat-Anwendung mit E-Mail-Registrierung/-Login und Echtzeit-Nachrichten über Firebase. Das Projekt verbindet eine Flutter-Oberfläche mit einem cloudbasierten Backend.',
+      'Eine mobile Chat-Anwendung mit E-Mail-Registrierung und -Login sowie Echtzeit-Nachrichten über Firebase. Das Projekt verbindet eine Flutter-Oberfläche mit einem cloudbasierten Backend.',
     description:
-      'Ein Auth Gate leitet abhängig vom Firebase-Authentifizierungsstatus automatisch zwischen Login-/Registrierungs-Bildschirm und dem Chat-Bildschirm weiter. Nachrichten werden über einen eigenen Message-Service in Cloud Firestore geschrieben (Text, Absender-UID, Absender-E-Mail, Zeitstempel) und über einen Firestore-Stream in Echtzeit an alle Clients synchronisiert und chronologisch dargestellt. Die Konfiguration erfolgt über eine generierte FlutterFire-Konfigurationsdatei; serverseitige Firestore Security Rules sind im Repository selbst nicht enthalten und daher aus dem Code nicht überprüfbar.',
-    technologies: ['Flutter', 'Dart', 'Firebase Authentication', 'Cloud Firestore'],
+      'Ein Auth Gate steuert abhängig vom Firebase-Authentifizierungsstatus die Anzeige von Login-/Registrierungsbereich und Chat-Bereich. Nachrichten werden über einen eigenen Message-Service in Cloud Firestore gespeichert und enthalten Text, Absender-UID, Absender-E-Mail und Zeitstempel. Ein Firestore-Stream synchronisiert neue Nachrichten in Echtzeit und stellt sie chronologisch dar. Die Firebase-Anbindung wird über eine generierte FlutterFire-Konfigurationsdatei eingerichtet. Die serverseitigen Firestore Security Rules sind nicht Bestandteil des Repositories.',
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Firebase Authentication',
+      'Cloud Firestore',
+    ],
     features: [
       'E-Mail-Registrierung und -Login',
-      'automatische Weiterleitung je nach Anmeldestatus (Auth Gate)',
+      'automatische Anzeige des passenden Bereichs je nach Anmeldestatus (Auth Gate)',
       'Echtzeit-Chat über Firestore-Streams',
-      'chronologische Nachrichtenliste mit Absendername und Zeitstempel',
+      'chronologische Nachrichtenliste mit Absender-E-Mail und Zeitstempel',
     ],
-    focus: ['Firebase Authentication', 'Cloud Firestore & Echtzeitdaten', 'Stream-basierte UI-Aktualisierung'],
-    role: 'Eigenständige praktische Umsetzung im Rahmen eines Lern-/Praxisprojekts zur Vertiefung von Mobile Development mit Backend-Anbindung.',
+    focus: [
+      'Firebase Authentication',
+      'Cloud Firestore & Echtzeitdaten',
+      'Stream-basierte UI-Aktualisierung',
+    ],
+    role:
+      'Eigenständige praktische Umsetzung im Rahmen eines Lern-/Praxisprojekts zur Vertiefung von Mobile Development mit Backend-Anbindung.',
     highlights: [
-      'Echtes Realtime-Pattern über Firestore-Snapshots statt Polling',
-      'Sauberer Auth-Gate-Ansatz über einen reaktiven Authentifizierungs-Stream',
+      'Echtzeit-Synchronisation von Nachrichten über Firestore-Streams',
+      'Automatische Steuerung von Login und Chat über ein Auth Gate',
     ],
     keyLearnings: [
       'Umsetzung von Benutzerregistrierung und -anmeldung mit Firebase Authentication',
