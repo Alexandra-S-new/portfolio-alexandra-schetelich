@@ -131,13 +131,14 @@ export const projects: Project[] = [
     shortDescription:
       'Ein KI-first entwickelter, deterministischer, agentenbasierter Simulations-Prototyp einer kleinen Welt mit Personen, Tieren, Bedürfnissen und wirtschaftlichen Interaktionen, umgesetzt in TypeScript mit CLI und Web-Oberfläche.',
     description:
-      'Die Simulation entstand in einem KI-first Entwicklungsprozess und verbindet eine klar strukturierte, erweiterbare Architektur mit deterministischen Simulationsläufen und einer einfachen Utility-KI. Die Engine kann über eine CLI oder eine eigenständige Web-Oberfläche mit interaktiver SVG-Karte genutzt werden. Gespeicherte Simulationsstände lassen sich reproduzierbar laden und weiterführen. Die technische Umsetzung wurde durch 287 automatisierte Tests abgesichert.', technologies: [
-        'TypeScript',
-        'Node.js',
-        'Vite',
-        'Vitest',
-        'Zod',
-      ],
+      'Die Simulation entstand in einem KI-first Entwicklungsprozess und verbindet eine klar strukturierte, erweiterbare Architektur mit deterministischen Simulationsläufen und einer einfachen Utility-KI, die den simulierten Personen unterschiedliche Handlungen wie Essen, Schlafen, Arbeiten, Handeln und Sozialisieren ermöglicht. Die Engine kann über eine CLI oder eine eigenständige Web-Oberfläche mit interaktiver SVG-Karte genutzt werden. Gespeicherte Simulationsstände lassen sich reproduzierbar laden und weiterführen. Die technische Umsetzung wurde durch automatisierte Tests abgesichert. ',
+    technologies: [
+      'TypeScript',
+      'Node.js',
+      'Vite',
+      'Vitest',
+      'Zod',
+    ],
     features: [
       'CLI zum Ausführen, Speichern/Laden und Inspizieren von Simulationsläufen',
       'Web-Oberfläche mit SVG-Weltkarte und klickbaren Orten/Figuren',
