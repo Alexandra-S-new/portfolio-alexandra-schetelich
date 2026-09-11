@@ -49,21 +49,27 @@ export const projects: Project[] = [
     category: 'Mobile Development',
     status: 'Abgeschlossenes Lernprojekt',
     shortDescription:
-      'Eine mobile Aufgabenverwaltung mit lokaler und dauerhafter Datenspeicherung, entwickelt mit Flutter und Dart. Das Projekt entstand im Rahmen meiner Weiterbildung in der modernen Anwendungsentwicklung.',
+      'Eine moderne ToDo-App mit Flutter und Dart zur Verwaltung persönlicher Aufgaben mit persistenter lokaler Datenspeicherung sowie Filter- und Sortierfunktionen. Das Projekt entstand im Rahmen meiner Weiterbildung in der modernen Anwendungsentwicklung.',
     description:
-      'Aufgaben lassen sich mit Titel, Beschreibung, Fälligkeitsdatum und Priorität verwalten und über eine Wischgeste schnell löschen. Filter- und Sortierfunktionen unterstützen dabei, auch bei vielen Aufgaben den Überblick zu behalten, während überfällige Aufgaben automatisch erkannt werden. Aufgaben lassen sich mit Titel, Beschreibung, Fälligkeitsdatum und Priorität verwalten und über eine Wischgeste schnell löschen. Filter- und Sortierfunktionen unterstützen dabei, auch bei vielen Aufgaben den Überblick zu behalten, während überfällige Aufgaben automatisch erkannt werden.',
-    technologies: ['Flutter', 'Dart', 'SharedPreferences'],
+      'Eine mobile Aufgabenverwaltung mit Flutter und Dart, die zentrale Funktionen einer modernen ToDo-App umsetzt. Aufgaben lassen sich mit Titel, Beschreibung, Priorität und Fälligkeitsdatum verwalten und dauerhaft lokal speichern. Filter- und Sortierfunktionen unterstützen die Übersicht bei vielen Aufgaben. Eine Wischgeste ermöglicht das schnelle Löschen mit zusätzlicher Löschbestätigung. Die Benutzeroberfläche unterstützt Light- und Dark-Mode und ist responsiv umgesetzt.',
+    technologies: ['Flutter', 'Dart', 'SharedPreferences', 'Material 3'],
     features: [
-      'Aufgaben erstellen, bearbeiten, abschließen, per Wischgeste löschen',
-      'Titel, Beschreibung, Fälligkeitsdatum, Priorität',
-      'kombinierbare Status- und Prioritätsfilter mit Sortierung',
-      'automatische Erkennung überfälliger Aufgaben',
-      'persistenter Hell-/Dunkelmodus',
+      'Aufgaben erstellen, bearbeiten und löschen',
+      'Aufgaben als erledigt markieren',
+      'Titel, Beschreibung, Priorität und Fälligkeitsdatum',
+      'Filterung nach Status und Priorität',
+      'Sortierung nach verschiedenen Kriterien',
+      'Swipe-to-delete mit Löschbestätigung',
+      'Persistente lokale Datenspeicherung mit SharedPreferences',
+      'Light- und Dark-Mode',
+      'Responsive Benutzeroberfläche',
+      'Material 3 Design',
     ],
     focus: ['Mobile UI', 'Lokale Datenpersistenz', 'Defensive Fehlerbehandlung'],
-    role: 'Eigenständige praktische Umsetzung im Rahmen der Weiterbildung im Bereich Mobile Development.',
+    role:
+      'Eigenständige praktische Umsetzung im Rahmen der Weiterbildung im Bereich Mobile Development.',
     highlights: [
-      'Robuste Datenhaltung:Fehlerhafte einzelne Einträge werden erkannt und übersprungen, anstatt die gesamte App zu beeinträchtigen.',
+      'Robuste Datenhaltung: Einzelne fehlerhafte Einträge werden erkannt und übersprungen, anstatt die gesamte App zu beeinträchtigen.',
       'State Management mit Flutter-Bordmitteln: Zustandsänderungen werden ohne zusätzliches State-Management-Framework umgesetzt.',
     ],
     keyLearnings: [
