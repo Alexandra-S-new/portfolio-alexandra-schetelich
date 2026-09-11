@@ -8,10 +8,10 @@ export const projects: Project[] = [
     status: 'Zwischenprüfung & Abschlussprojekt',
     featured: true,
     shortDescription:
-      'Das Projekt entstand in zwei Entwicklungsstufen: Zunächst entwickelte ich im Rahmen meiner Flutter-Zwischenprüfung eine Shop-App als eigenständigen Flutter-App. Anschließend wurde die Idee mithilfe KI-gestützter Entwicklung in ein React-Webanwendung überführt und als Teil des Abschlussprojekts „Kindertraum Organisation“ weiterentwickelt.',
+      'Aus einer im Rahmen der Flutter-Zwischenprüfung entwickelten Shop-App entstand mithilfe KI-gestützter Entwicklung die React-Webanwendung „Kindertraum Organisation“.',
+
     description:
-      'Die erste Version des Shops entstand als eigenständige Flutter-App und diente als Zwischenprüfungsprojekt. In der anschließenden Projektphase wurde die Shop-Funktionalität in eine React-Webanwendung übertragen und dort weiterentwickelt. Die heutige Anwendung umfasst neben Produktübersicht, Suche, Kategorien, Warenkorb und simuliertem Checkout weitere Bereiche wie Blog/News, Kontakt, Login und administrative Funktionen. Das Projekt verbindet eine responsive Benutzeroberfläche mit einer Supabase-basierten Backend-Struktur.',
-    technologies: ['React', 'TypeScript', 'Vite', 'Supabase', 'Cloudflare Pages'],
+      'Die heutige Webanwendung erweitert den ursprünglichen Shop um eine umfangreiche Organisations-Website mit Produktübersicht, Suche, Kategorien, Warenkorb und simuliertem Checkout sowie Blog/News-, Kontakt-, Login- und Administrationsbereichen. Die responsive Anwendung nutzt React und TypeScript sowie Supabase als Backend.', technologies: ['React', 'TypeScript', 'Vite', 'Supabase', 'Cloudflare Pages'],
     features: [
       'Produktübersicht mit Demo-Daten',
       'Suche und Kategorie-Filter',
@@ -29,7 +29,7 @@ export const projects: Project[] = [
       'Übertragung und Weiterentwicklung bestehender Funktionalität'],
     role: 'Eigenständige Konzeption und Umsetzung der Flutter-App im Rahmen der Zwischenprüfung. Anschließend eigenständige Weiterentwicklung des Projekts als React-Webanwendung mit KI-gestützter Unterstützung bei der technischen Übertragung und Anpassung.',
     highlights: [
-      'Flutter-Shop als Ausgangspunkt der Projektentwicklung',
+      'Flutter-Shop-App als Ausgangspunkt der Projektentwicklung',
       'Übertragung der Shop-Funktionalität in eine React-Webanwendung',
       'Weiterentwicklung zu einer umfangreicheren Organisations-Website',
       'Einsatz von KI als Entwicklungswerkzeug bei der technischen Umsetzung'
