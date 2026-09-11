@@ -131,14 +131,13 @@ export const projects: Project[] = [
     shortDescription:
       'Ein KI-first entwickelter, deterministischer, agentenbasierter Simulations-Prototyp einer kleinen Welt mit Personen, Tieren, Bedürfnissen und wirtschaftlichen Interaktionen, umgesetzt in TypeScript mit CLI und Web-Oberfläche.',
     description:
-      'Die Simulation entstand in einem KI-first Entwicklungsprozess, bei dem KI-gestützte Werkzeuge für Ideenfindung, Konzeption und Implementierung eingesetzt wurden. Im Mittelpunkt stand dabei die Entwicklung einer klar strukturierten und erweiterbaren Architektur, in der die verschiedenen Bereiche der Simulation voneinander getrennt sind und dennoch zusammenspielen. Die Welt entwickelt sich über unabhängige Tick-Systeme, Events und eine einfache Utility-KI, die den simulierten Personen unterschiedliche Handlungen wie Essen, Schlafen, Arbeiten, Handeln und Sozialisieren ermöglicht. Ein zentraler Zufallsgenerator sorgt dafür, dass diese Prozesse trotz ihrer Komplexität deterministisch und damit reproduzierbar bleiben. Auf diese Weise können Simulationsstände gespeichert, geladen und zuverlässig weitergeführt werden. Die Engine lässt sich sowohl über eine CLI als auch über eine eigenständige Web-Oberfläche nutzen, die die simulierte Welt als interaktive SVG-Karte visualisiert. Die technische Umsetzung wurde durch 287 automatisierte Tests abgesichert, darunter spezielle Tests zur Überprüfung des deterministischen Verhaltens beim Speichern, Laden und Fortsetzen von Simulationen.',
-    technologies: [
-      'TypeScript',
-      'Node.js',
-      'Vite',
-      'Vitest',
-      'Zod',
-    ],
+      'Die Simulation entstand in einem KI-first Entwicklungsprozess und verbindet eine klar strukturierte, erweiterbare Architektur mit deterministischen Simulationsläufen und einer einfachen Utility-KI. Die Engine kann über eine CLI oder eine eigenständige Web-Oberfläche mit interaktiver SVG-Karte genutzt werden. Gespeicherte Simulationsstände lassen sich reproduzierbar laden und weiterführen. Die technische Umsetzung wurde durch 287 automatisierte Tests abgesichert.', technologies: [
+        'TypeScript',
+        'Node.js',
+        'Vite',
+        'Vitest',
+        'Zod',
+      ],
     features: [
       'CLI zum Ausführen, Speichern/Laden und Inspizieren von Simulationsläufen',
       'Web-Oberfläche mit SVG-Weltkarte und klickbaren Orten/Figuren',
@@ -157,8 +156,8 @@ export const projects: Project[] = [
     role:
       'Eigenständige Konzeption und technische Umsetzung der gesamten Simulationsarchitektur, der CLI sowie der Web-Oberfläche in einem KI-first Entwicklungsprozess. KI-gestützte Werkzeuge wurden für Ideenfindung, Konzeption und Implementierung eingesetzt; Architekturentscheidungen, Validierung und Qualitätssicherung wurden eigenständig verantwortet.',
     highlights: [
-      '287 von 287 automatisierten Tests bestehen',
-      'Determinismus praktisch verifiziert: Gespeicherte Simulationszustände lassen sich laden und reproduzierbar fortsetzen',
+      'Determinismus praktisch verifiziert: Gespeicherte Simulationszustände lassen sich reproduzierbar fortsetzen',
+      'CLI und Web-Oberfläche greifen auf dieselbe Simulations-Engine zu',
       'Zwei gleichberechtigte Präsentationswege (CLI und Web) auf derselben Engine',
       'Beobachtete Emergenz: Aus einfachen Regeln entstanden im Testlauf eigenständig eine Partnerschaft und eine Geburt',
     ],
