@@ -69,8 +69,11 @@ export const projects: Project[] = [
     role:
       'Eigenständige praktische Umsetzung im Rahmen der Weiterbildung im Bereich Mobile Development.',
     highlights: [
-      'Robuste Datenhaltung: Einzelne fehlerhafte Einträge werden erkannt und übersprungen, anstatt die gesamte App zu beeinträchtigen.',
-      'State Management mit Flutter-Bordmitteln: Zustandsänderungen werden ohne zusätzliches State-Management-Framework umgesetzt.',
+      'Persistente lokale Datenspeicherung',
+      'Filter- und Sortierfunktionen',
+      'Light- und Dark-Mode',
+      'Responsive Benutzeroberfläche',
+      'Material 3 ',
     ],
     keyLearnings: [
       'Grundlagen der Sprache Dart',
