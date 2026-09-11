@@ -49,10 +49,10 @@ export const projects: Project[] = [
     category: 'Mobile Development',
     status: 'Abgeschlossenes Lernprojekt',
     shortDescription:
-      'Eine mobile Aufgabenverwaltung mit lokaler, dauerhafter Speicherung, umgesetzt mit Flutter und Dart. Das Projekt entstand im Rahmen einer Weiterbildung zur mobilen App-Entwicklung.',
+      'Eine mobile Aufgabenverwaltung mit lokaler und dauerhafter Datenspeicherung, entwickelt mit Flutter und Dart. Das Projekt entstand im Rahmen meiner Weiterbildung in der modernen Anwendungsentwicklung.',
     description:
-      'Aufgaben lassen sich mit Titel, Beschreibung, Fälligkeitsdatum und Priorität anlegen, bearbeiten, als erledigt markieren und per Wischgeste löschen. Kombinierbare Status- und Prioritätsfilter sowie eine Sortierung helfen, den Überblick zu behalten; überfällige Aufgaben werden automatisch erkannt. Die Daten werden lokal gespeichert, ein defensives Lade-Verfahren überspringt einzelne fehlerhafte Datensätze, statt die gesamte Liste unbrauchbar zu machen. Die Oberfläche basiert auf Material 3 mit dauerhaft gespeichertem Hell-/Dunkelmodus.',
-    technologies: ['Flutter', 'Dart', 'shared_preferences'],
+      'Aufgaben lassen sich mit Titel, Beschreibung, Fälligkeitsdatum und Priorität verwalten und über eine Wischgeste schnell löschen. Filter- und Sortierfunktionen unterstützen dabei, auch bei vielen Aufgaben den Überblick zu behalten, während überfällige Aufgaben automatisch erkannt werden. Aufgaben lassen sich mit Titel, Beschreibung, Fälligkeitsdatum und Priorität verwalten und über eine Wischgeste schnell löschen. Filter- und Sortierfunktionen unterstützen dabei, auch bei vielen Aufgaben den Überblick zu behalten, während überfällige Aufgaben automatisch erkannt werden.',
+    technologies: ['Flutter', 'Dart', 'SharedPreferences'],
     features: [
       'Aufgaben erstellen, bearbeiten, abschließen, per Wischgeste löschen',
       'Titel, Beschreibung, Fälligkeitsdatum, Priorität',
@@ -63,8 +63,8 @@ export const projects: Project[] = [
     focus: ['Mobile UI', 'Lokale Datenpersistenz', 'Defensive Fehlerbehandlung'],
     role: 'Eigenständige praktische Umsetzung im Rahmen der Weiterbildung im Bereich Mobile Development.',
     highlights: [
-      'Robuste Datenhaltung: beschädigte einzelne Einträge werden übersprungen statt die App abstürzen zu lassen',
-      'State Management ohne zusätzliches Framework, allein mit Flutter-Bordmitteln',
+      'Robuste Datenhaltung:Fehlerhafte einzelne Einträge werden erkannt und übersprungen, anstatt die gesamte App zu beeinträchtigen.',
+      'State Management mit Flutter-Bordmitteln: Zustandsänderungen werden ohne zusätzliches State-Management-Framework umgesetzt.',
     ],
     keyLearnings: [
       'Grundlagen der Sprache Dart',
