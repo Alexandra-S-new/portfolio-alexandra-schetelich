@@ -4,7 +4,7 @@
 @theme {
   --color-background: #f7f9f9;
   --color-surface: #ffffff;
-  --color-surface-muted: #f1f4f3;
+  --color-surface-muted: #e9f3f1;
   --color-text: #1b1f1e;
   --color-text-muted: #47605c;
   --color-border: #e2e8e7;
@@ -13,6 +13,7 @@
 }
 
 @layer base {
+
   *,
   *::before,
   *::after {
