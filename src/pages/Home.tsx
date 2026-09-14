@@ -50,14 +50,15 @@ export function Home() {
             Webentwicklung mit Blick für Struktur, Gestaltung und Nutzer.
           </h2> */}
 
-          <div className="mt-6 max-w-4xl text-text-muted">
+          <div className="mt-6 max-w-4xl space-y-4  text-text-muted">
             <p> Digitale Produkte überzeugen mich dann, wenn sie komplexe Aufgaben einfach machen.
             </p>
             <p>
               Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Entwicklerin moderner Anwendungen.
               Mein Schwerpunkt liegt auf der Konzeption und Entwicklung von Mobile Apps sowie in der KI-gestützten Entwicklung digitaler Lösungen.
-              Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Anwendungen.
-              Mein Anspruch ist es, durchdachte und benutzerfreundliche Lösungen zu schaffen, die nicht nur funktionieren, sondern Menschen im Alltag wirklich unterstützen.
+              Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Anwendungen.</p>
+            <p>
+              Mein Anspruch ist es, durchdachte und benutzerfreundliche Lösungen zu schaffen, die nicht nur technisch funktionieren, sondern Menschen im Alltag wirklich unterstützen.
             </p>
           </div>
 
