@@ -55,7 +55,7 @@ export function Home() {
             </p>
             <p>
               Ich bin Alexandra Schetelich, Medieninformatikerin (M.Sc.) und Entwicklerin moderner Anwendungen.
-              Mein Schwerpunkt liegt auf der Konzeption und Entwicklung von Mobile Apps sowie in der KI-gestützten Entwicklung digitaler Lösungen.
+              In meiner Arbeit verknüpfe ich Web- und Mobile-Entwicklung mit KI-gestützten Entwicklungsprozessen.
               Dabei verbinde ich technisches Verständnis mit einem Blick für klare und intuitive Anwendungen.</p>
             <p>
               Mein Anspruch ist es, durchdachte und benutzerfreundliche Lösungen zu schaffen, die nicht nur technisch funktionieren, sondern Menschen im Alltag wirklich unterstützen.
@@ -97,19 +97,18 @@ export function Home() {
             </p>
 
             <p>
-              Meine bisherige Erfahrung bildet heute die Grundlage für meinen Schwerpunkt in der Entwicklung von Mobile Apps
-              sowie in der KI-gestützten Entwicklung digitaler Lösungen. Mit meiner Weiterbildung in moderner Anwendungsentwicklung habe ich diesen Weg
-              gezielt weiterentwickelt und mein Wissen mit Technologien wie Dart und Flutter erweitert.</p>
+              Meine Erfahrung aus der Webentwicklung bildet heute die Grundlage für meine Weiterentwicklung in Richtung moderner Anwendungsentwicklung. Mit meiner Weiterbildung habe ich mein technisches Wissen gezielt erweitert und mich unter anderem mit Dart und Flutter beschäftigt.</p>
 
             <p>
               Besonders spannend finde ich die Möglichkeit, digitale Produkte von der ersten Idee bis zur fertigen Anwendung mitzudenken.
-              Aus meiner Erfahrung in der Webentwicklung nehme ich vor allem den Anspruch mit,
+              Aus meiner bisherigen Arbeit nehme ich vor allem den Anspruch mit,
               dass eine gute technische Lösung auch für die Menschen funktionieren muss, die sie später nutzen.
             </p>
-            <p>Ich gehe neue Aufgaben strukturiert und lösungsorientiert an und arbeite mich gerne in neue Technologien ein. Mich motiviert es, komplexe Anforderungen zu verstehen und daraus Lösungen zu entwickeln, die im Alltag einen echten Nutzen bieten.</p>
+            <p>Ich gehe neue Aufgaben strukturiert und lösungsorientiert an. Gleichzeitig arbeite ich mich gerne in neue Technologien ein.
+              Mich motiviert es, komplexe Anforderungen zu verstehen und daraus Lösungen zu entwickeln, die im Alltag einen konkreten Nutzen bieten.</p>
 
             <p>
-              Mir ist wichtig, dass digitale Lösungen nicht nur technisch funktionieren, sondern verständlich gestaltet,
+              Mir ist wichtig, dass digitale Anwendungen nicht nur technisch funktionieren, sondern verständlich gestaltet,
               gut nutzbar und langfristig nachvollziehbar sind.
             </p>
           </div>
@@ -189,7 +188,7 @@ export function Home() {
           </h2>
 
           <p className="mt-6 max-w-2xl text-text-muted">
-            Meine Kenntnisse reichen von moderner Web- und Mobile-Entwicklung bis hin zu KI-gestützten Anwendungen.
+            Meine Kenntnisse reichen von moderner Web- und Mobile-Entwicklung bis hin zu KI-gestützten Entwicklungsprozessen.
             Dabei verbinde ich technische Umsetzung mit strukturiertem
             Arbeiten, Gestaltung und einem Blick für die Nutzerperspektive.
           </p>
@@ -215,7 +214,7 @@ export function Home() {
               <h3>Mobile Development</h3>
               <p className="mt-3 text-text-muted">
                 Entwicklung mobiler Anwendungen mit Dart und Flutter im
-                Rahmen meiner aktuellen fachlichen Vertiefung.
+                Rahmen meiner fachlichen Vertiefung.
               </p>
               <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-text-muted">
                 <li>Dart</li>

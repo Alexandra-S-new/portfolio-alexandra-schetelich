@@ -30,9 +30,9 @@ export const projects: Project[] = [
     role: 'Eigenständige Konzeption und Umsetzung der Flutter-App im Rahmen der Zwischenprüfung. Anschließend eigenständige Weiterentwicklung des Projekts als React-Webanwendung mit KI-gestützter Unterstützung bei der technischen Übertragung und Anpassung.',
     highlights: [
       'Flutter-Shop-App als Ausgangspunkt der Projektentwicklung',
-      'Übertragung der Shop-Funktionalität in eine React-Webanwendung',
-      'Weiterentwicklung zu einer umfangreicheren Organisations-Website',
-      'Einsatz von KI als Entwicklungswerkzeug bei der technischen Umsetzung'
+      'Übertragung und Weiterentwicklung der Shop-Funktionalität in eine React-Webanwendung',
+      'Erweiterung um Organisations-, Blog-, Kontakt- und Login-Bereiche',
+      'KI-gestützte Entwicklung als Bestandteil des gesamten Umsetzungsprozesses'
     ],
     keyLearnings: [
       'Entwicklung einer strukturierten Flutter-App mit Provider',
@@ -49,9 +49,9 @@ export const projects: Project[] = [
     category: 'Mobile Development',
     status: 'Abgeschlossenes Lernprojekt',
     shortDescription:
-      'Eine moderne ToDo-App mit Flutter und Dart zur Verwaltung persönlicher Aufgaben mit persistenter lokaler Datenspeicherung sowie Filter- und Sortierfunktionen. Das Projekt entstand im Rahmen meiner Weiterbildung in der modernen Anwendungsentwicklung.',
+      'Eine mobile ToDo-App mit Flutter und Dart zur Verwaltung persönlicher Aufgaben. Das Projekt entstand im Rahmen meiner Weiterbildung in der modernen Anwendungsentwicklung.',
     description:
-      'Eine mobile Aufgabenverwaltung mit Flutter und Dart, die zentrale Funktionen einer modernen ToDo-App umsetzt. Aufgaben lassen sich mit Titel, Beschreibung, Priorität und Fälligkeitsdatum verwalten und dauerhaft lokal speichern. Filter- und Sortierfunktionen unterstützen die Übersicht bei vielen Aufgaben. Eine Wischgeste ermöglicht das schnelle Löschen mit zusätzlicher Löschbestätigung. Die Benutzeroberfläche unterstützt Light- und Dark-Mode und ist responsiv umgesetzt.',
+      'Die Anwendung ermöglicht das Erstellen, Bearbeiten, Löschen und Abhaken von Aufgaben mit Titel, Beschreibung, Priorität und Fälligkeitsdatum. Die Daten werden lokal gespeichert. Filter- und Sortierfunktionen unterstützen die Aufgabenverwaltung, während eine Wischgeste das schnelle Löschen mit zusätzlicher Bestätigung ermöglicht. Die Benutzeroberfläche unterstützt Light- und Dark-Mode und ist responsiv umgesetzt.',
     technologies: ['Flutter', 'Dart', 'SharedPreferences', 'Material 3'],
     features: [
       'Aufgaben erstellen, bearbeiten und löschen',
@@ -69,11 +69,10 @@ export const projects: Project[] = [
     role:
       'Eigenständige praktische Umsetzung im Rahmen der Weiterbildung im Bereich Mobile Development.',
     highlights: [
-      'Persistente lokale Datenspeicherung',
-      'Filter- und Sortierfunktionen',
-      'Light- und Dark-Mode',
-      'Responsive Benutzeroberfläche',
-      'Material 3 ',
+      'Persistente lokale Datenspeicherung mit SharedPreferences',
+      'Filter- und Sortierfunktionen für die Aufgabenverwaltung',
+      'Light- und Dark-Mode mit Material 3 Design',
+      'Wischgeste mit zusätzlicher Löschbestätigung ',
     ],
     keyLearnings: [
       'Grundlagen der Sprache Dart',
@@ -89,7 +88,7 @@ export const projects: Project[] = [
     category: 'Mobile Development & Backend',
     status: 'Abgeschlossenes Lernprojekt',
     shortDescription:
-      'Eine mobile Chat-Anwendung mit E-Mail-Registrierung und -Login sowie Echtzeit-Nachrichten über Firebase. Das Projekt verbindet eine Flutter-Oberfläche mit einem cloudbasierten Backend.',
+      'Eine mobile Chat-Anwendung mit Flutter, Firebase Authentication und Cloud Firestore. Das Projekt verbindet eine mobile Benutzeroberfläche mit Authentifizierung und cloudbasierter Echtzeit-Datenspeicherung.',
     description:
       'Ein Auth Gate steuert abhängig vom Firebase-Authentifizierungsstatus die Anzeige von Login-/Registrierungsbereich und Chat-Bereich. Nachrichten werden über einen eigenen Message-Service in Cloud Firestore gespeichert und enthalten Text, Absender-UID, Absender-E-Mail und Zeitstempel. Ein Firestore-Stream synchronisiert neue Nachrichten in Echtzeit und stellt sie chronologisch dar. Die Firebase-Anbindung wird über eine generierte FlutterFire-Konfigurationsdatei eingerichtet. Die serverseitigen Firestore Security Rules sind nicht Bestandteil des Repositories.',
     technologies: [
@@ -112,8 +111,9 @@ export const projects: Project[] = [
     role:
       'Eigenständige praktische Umsetzung im Rahmen eines Lern-/Praxisprojekts zur Vertiefung von Mobile Development mit Backend-Anbindung.',
     highlights: [
+      'E-Mail-Registrierung und -Login mit Firebase Authentication',
       'Echtzeit-Synchronisation von Nachrichten über Firestore-Streams',
-      'Automatische Steuerung von Login und Chat über ein Auth Gate',
+      'Auth Gate zur Steuerung des Zugangs zu Login und Chat',
     ],
     keyLearnings: [
       'Umsetzung von Benutzerregistrierung und -anmeldung mit Firebase Authentication',
@@ -129,9 +129,9 @@ export const projects: Project[] = [
     category: 'Rapid Extendable Prototyping',
     status: 'Proof of Concept (PoC), aktiv getestet',
     shortDescription:
-      'Ein KI-first entwickelter, deterministischer, agentenbasierter Simulations-Prototyp einer kleinen Welt mit Personen, Tieren, Bedürfnissen und wirtschaftlichen Interaktionen, umgesetzt in TypeScript mit CLI und Web-Oberfläche.',
+      'Ein KI-first entwickelter, deterministischer, agentenbasierter Simulations-Prototyp einer kleinen Welt mit Personen, Tieren, Bedürfnissen und wirtschaftlichen Interaktionen.',
     description:
-      'Die Simulation entstand in einem KI-first Entwicklungsprozess und verbindet eine klar strukturierte, erweiterbare Architektur mit deterministischen Simulationsläufen und einer einfachen Utility-KI, die den simulierten Personen unterschiedliche Handlungen wie Essen, Schlafen, Arbeiten, Handeln und Sozialisieren ermöglicht. Die Engine kann über eine CLI oder eine eigenständige Web-Oberfläche mit interaktiver SVG-Karte genutzt werden. Gespeicherte Simulationsstände lassen sich reproduzierbar laden und weiterführen. Die technische Umsetzung wurde durch automatisierte Tests abgesichert. ',
+      'Die Simulation modelliert eine kleine Welt, in der simulierte Personen unterschiedliche Handlungen wie Essen, Schlafen, Arbeiten, Handeln und Sozialisieren ausführen können. Die Engine lässt sich sowohl über eine CLI als auch über eine Web-Oberfläche mit interaktiver SVG-Karte nutzen. Simulationsstände können gespeichert, reproduzierbar geladen und weitergeführt werden. Die technische Umsetzung wurde durch automatisierte Tests abgesichert.',
     technologies: [
       'TypeScript',
       'Node.js',
@@ -157,10 +157,10 @@ export const projects: Project[] = [
     role:
       'Eigenständige Konzeption und technische Umsetzung der gesamten Simulationsarchitektur, der CLI sowie der Web-Oberfläche in einem KI-first Entwicklungsprozess. KI-gestützte Werkzeuge wurden für Ideenfindung, Konzeption und Implementierung eingesetzt; Architekturentscheidungen, Validierung und Qualitätssicherung wurden eigenständig verantwortet.',
     highlights: [
-      'Determinismus praktisch verifiziert: Gespeicherte Simulationszustände lassen sich reproduzierbar fortsetzen',
-      'CLI und Web-Oberfläche greifen auf dieselbe Simulations-Engine zu',
-      'Zwei gleichberechtigte Präsentationswege (CLI und Web) auf derselben Engine',
-      'Beobachtete Emergenz: Aus einfachen Regeln entstanden im Testlauf eigenständig eine Partnerschaft und eine Geburt',
+      'Deterministische und reproduzierbare Simulationsläufe',
+      'Gemeinsame Simulations-Engine für CLI und Web-Oberfläche',
+      'Interaktive Darstellung über eine SVG-Karte',
+      'Beobachtete Emergenz: Partnerschaft und Geburt entstanden im Testlauf aus einfachen Regeln',
     ],
     keyLearnings: [
       'KI-first Development als strukturierter Entwicklungsansatz für Ideenfindung, Konzeption und Implementierung',
